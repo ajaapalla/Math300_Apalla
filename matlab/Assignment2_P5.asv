@@ -1,0 +1,6 @@
+% Assignment 2 Problem 5
+%% Variables
+t = linspace(0,10,100);
+
+%% Code
+plot()

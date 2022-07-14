@@ -1,0 +1,14 @@
+%% variables
+%length = 10 %length of interval
+%
+
+h = 1; %
+n = 100; %amount of space steps
+
+%% code
+x = 0;
+for i = 1:n
+    x(i+1) = x(i) + h.*(x(i)^2+x(i)+1);
+end
+
+plot(x(i+1));
